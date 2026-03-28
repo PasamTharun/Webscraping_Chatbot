@@ -24,7 +24,8 @@ Step 1: Environment Setup (inside a venv — avoids system conflicts)
   python -m venv chatbot_env
   chatbot_env\\Scripts\\activate        # Windows
   pip install -r requirements.txt
-
+  python website_chatbot.py
+  
 Step 2: Web Scraping  (WebScraper)
   requests + BeautifulSoup crawl the target site and internal links.
   Scripts/styles/nav/footer stripped; clean text split into chunks.
